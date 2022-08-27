@@ -1,8 +1,11 @@
 name: Deploy Shinylive application
 
+# on:
+#   push:
+#     branches: [main]
+
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   build:
