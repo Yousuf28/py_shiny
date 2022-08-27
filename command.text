@@ -9,3 +9,5 @@ http://localhost:8008/
 any time you change your app, you will have to run 
 shiny static myapp docs 
 to update the docs folder.
+
+shiny run --reload myapp/app.py
